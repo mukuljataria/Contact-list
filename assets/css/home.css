@@ -1,0 +1,128 @@
+/* body{
+    margin: 0;
+    font-family: sans-serif;
+}
+
+#page-heading{
+    text-align: center;
+    margin-top: 25px;
+    color: grey;
+}
+
+
+#contat-list-container ul{
+    padding: 0;
+    list-style: none;
+    width: 40%;
+}
+
+.contact{
+    padding: 3px 10px;
+    border: 1px solid white;
+    background-color: #6f92f9;
+    box-shadow: 1px 1px 1px 1px lightgrey;
+    color: white;
+    display: flex;
+}
+
+.contact .details{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 90%;
+}
+
+.contact .delete-button{
+    width: 10%;
+    padding: 3px;
+    text-align: center;
+    margin-top: 5px;
+}
+
+.contact .delete-button a{
+    color: white;
+    background-color: red;
+
+}
+
+.contact p{
+    margin: 5px 0;
+}
+
+#new-contact-form{
+    text-align: center;
+} */
+
+
+body {
+    margin: 0;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh; /* This makes sure the body takes the full height of the viewport */
+}
+
+#page-heading {
+    text-align: center;
+    margin-top: 25px;
+    color: grey;
+}
+
+#contacts-list-container {
+    width: 40%;
+    margin: 20px auto; /* Center the container */
+}
+
+#contacts-list-container ul {
+    padding: 0;
+    list-style: none;
+    width: 100%; /* Make the list take the full width of the container */
+    margin: 0;
+}
+
+.contact {
+    padding: 3px 10px;
+    border: 1px solid white;
+    background-color: #6f92f9;
+    box-shadow: 1px 1px 1px 1px lightgrey;
+    color: white;
+    display: flex;
+    justify-content: space-between; /* Ensure content is spaced within each contact item */
+    margin-bottom: 10px; /* Add some space between contact items */
+}
+
+.contact .details {
+    display: flex;
+    flex-direction: column; /* Change to column for better alignment */
+    flex-wrap: wrap;
+    width: 90%;
+}
+
+.contact .delete-button {
+    width: 10%;
+    padding: 3px;
+    text-align: center;
+    margin-top: 5px;
+}
+
+.contact .delete-button a {
+    color: white;
+    background-color: red;
+}
+
+.contact p {
+    margin: 5px 0;
+}
+
+#new-contact-form {
+    text-align: center;
+    width: 100%; /* Ensure form takes the full width */
+    margin-top: 20px; /* Add some space above the form */
+}
+
+#new-contact-form input, #new-contact-form button {
+    margin: 5px; /* Add some space between form elements */
+}
