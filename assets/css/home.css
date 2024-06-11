@@ -62,7 +62,7 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    height: 100vh; /* This makes sure the body takes the full height of the viewport */
+   /* height: 100vh; /* This makes sure the body takes the full height of the viewport */
 }
 
 #page-heading {
